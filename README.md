@@ -10,7 +10,7 @@ Open a command prompt or powershell terminal as an administrative user
 
 Paste in the following:
 
-    START http://boxstarter.org/package/nr/url?
+    START http://boxstarter.org/package/nr/url?https://raw.githubusercontent.com/jkochfrontline/frontline-boxstarter/master/frontline.boxstarter
 
 Hit "Enter" and go grab a coffee :)
 
