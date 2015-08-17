@@ -33,10 +33,12 @@ cinst procexp -y
 cinst console2 -y
 cinst console-devel -y
 cinst wget -y
+cinst cyg-get -y
 
 ### Source Control ###
 cinst git -y
 cinst git.install -y
+cinst msysgit -y
 cinst sourcetree -y
 cinst github -y
 

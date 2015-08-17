@@ -12,10 +12,21 @@ Paste in the following:
 
     START http://boxstarter.org/package/nr/url?
 
-Click Enter and go grab a coffee :)
+Hit "Enter" and go grab a coffee :)
 
 Be sure to reset your default browser when finished.
 
 ## Having Problems?
 
 Come see me!  I'm more than happy to help out!
+
+## Development
+
+Pull requests are very welcome!  Please follow the normal workflow,
+example:
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Added some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
