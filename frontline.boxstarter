@@ -1,0 +1,63 @@
+### Set up Windows ###
+cinst dotnet4.5 -y
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions 
+Set-TaskbarOptions -Size Small -Lock -Dock Bottom
+Enable-RemoteDesktop
+Disable-UAC
+Disable-InternetExplorerESC
+cinst Microsoft-Hyper-V-All -source windowsFeatures -y
+cinst IIS-WebServerRole -source windowsfeatures -y
+
+Enable-MicrosoftUpdate
+Install-WindowsUpdate -AcceptEula
+
+### Browsers ###
+cinst google-chrome-x64 -y
+
+### Communication ###
+cinst skype -y
+cinst thunderbird -packageParameters "l=en-US" -y
+cinst pidgin -y
+cinst pidginotrplugin -y
+
+### Utilities ###
+cinst 7zip.install -y
+cinst lastpass -y
+cinst putty.install -version 0.65 -y
+cinst teamviewer -y
+cinst f.lux -y
+cinst sysinternals -y
+cinst windirstat -y
+cinst LinkShellExtension -y
+cinst procexp -y
+cinst console2 -y
+cinst console-devel -y
+cinst wget -y
+
+### Source Control ###
+cinst git -y
+cinst git.install -y
+cinst sourcetree -y
+cinst github -y
+
+### Cloud & FTP ###
+cinst filezilla -y
+cinst dropbox -y
+
+### Editors ###
+cinst notepadplusplus.install -y
+cinst sublimetext3 -y
+
+### Development ###
+cinst vagrant -y
+cinst virtualbox -y
+cinst chefdk -y
+cinst boot2docker -y
+
+### Debug ###
+cinst fiddler4 -y
+cinst wireshark -y
+cinst baretail -y
+
+### Fun ###
+cinst spotify -y
