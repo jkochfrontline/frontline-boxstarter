@@ -61,5 +61,8 @@ cinst fiddler4 -y
 cinst wireshark -y
 cinst baretail -y
 
+### Database ###
+cinst mongovue -y
+
 ### Fun ###
 cinst spotify -y
