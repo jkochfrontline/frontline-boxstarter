@@ -62,7 +62,7 @@ cinst wireshark -y
 cinst baretail -y
 
 ### Database ###
-cinst mongovue -y
+cinst robomongo -y
 
 ### Fun ###
 cinst spotify -y
