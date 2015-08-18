@@ -66,3 +66,9 @@ cinst robomongo -y
 
 ### Fun ###
 cinst spotify -y
+
+### Env Var Setup ###
+$env:PSModulePath = $env:PSModulePath + ";C:\Program Files\Sublime Text 3"
+# Fix SSH-Agent error by adding the bin directory to the `Path` environment variable
+$env:PSModulePath = $env:PSModulePath + ";C:\Program Files (x86)\Git\bin"
+$env:PSModulePath = $env:PSModulePath + ";C:\tools\cygwin\bin"
