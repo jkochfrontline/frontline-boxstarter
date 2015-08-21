@@ -5,7 +5,6 @@ Set-TaskbarOptions -Size Small -Lock -Dock Bottom
 Enable-RemoteDesktop
 Disable-UAC
 Disable-InternetExplorerESC
-cinst Microsoft-Hyper-V-All -source windowsFeatures -y
 cinst IIS-WebServerRole -source windowsfeatures -y
 
 Enable-MicrosoftUpdate
