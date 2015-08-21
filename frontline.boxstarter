@@ -52,6 +52,7 @@ cinst sublimetext3 -y
 
 ### Development ###
 cinst vagrant -y
+cinst packer -y
 cinst virtualbox -y
 cinst chefdk -y
 cinst boot2docker -y
